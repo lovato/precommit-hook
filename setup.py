@@ -29,7 +29,7 @@ setup(
     url="https://github.com/collin5/precommit-hook",
     description="Auto check quality of python code before shipping",
     long_description=long_description,
-    install_requires=requirements,
+    long_description_content_type='text/markdown',
     platforms=['any'],
     extras_require={
         'dev': [requirements_dev.split('\n')]
